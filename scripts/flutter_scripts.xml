@@ -1,0 +1,22 @@
+<commands>
+    <command>
+        <name>build_runner</name>
+        <description>Automatic model serialization classes</description>
+        <command>flutter pub run build_runner build --delete-conflicting-outputs</command>
+    </command>
+    <command>
+        <name>flutter_native_splashscreen</name>
+        <description>Create splash screen</description>
+        <command>flutter clean && flutter pub get && flutter pub run flutter_native_splash:create</command>
+    </command>
+    <command>
+        <name>gradlew signing report</name>
+        <description>signing information for each app's variants</description>
+        <command>./android/gradlew signingReport</command>
+    </command>
+    <command>
+        <name>laucher icons</name>
+        <description>Generate laucher icons</description>
+        <command>flutter pub run flutter_launcher_icons:main</command>
+    </command>
+</commands>
