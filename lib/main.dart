@@ -92,13 +92,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
                 Positioned(
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
+                  bottom: 20,
+                  left: 20,
+                  right: 20,
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     height: 200,
-                    color: Colors.white.withOpacity(0.7),
+                    // color: Colors.white.withOpacity(0.7),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.7),
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
